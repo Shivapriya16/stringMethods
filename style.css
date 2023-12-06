@@ -1,0 +1,27 @@
+#title {
+    background-color: rgb(234, 234, 248);
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50pt;
+    text-align: center;
+    padding-top: 10pt;
+    border-style: inherit;
+
+}
+
+.buttons {
+    padding-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.bu{
+    background-color: rgb(204, 243, 122);
+    border-radius: 100px;
+    border-block: 50px;
+    padding: 5pt;
+}
